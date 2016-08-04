@@ -133,8 +133,13 @@
 
 .ace-chrome .ace_storage,
 .ace-chrome .ace_keyword,
-.ace-chrome .ace_meta.ace_tag {
+.ace-chrome .ace_meta.ace_tag,
+.ace-chrome .ace_token {
   color: rgb(147, 15, 128);
+}
+
+.ace-chrome .ace_quantifier {
+ color: #4A89DC; 
 }
 
 .ace-chrome .ace_string.ace_regex {
@@ -152,3 +157,5 @@
 .ace-chrome .ace_indent-guide {
   background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAE0lEQVQImWP4////f4bLly//BwAmVgd1/w11/gAAAABJRU5ErkJggg==") right repeat-y;
 }
+
+
